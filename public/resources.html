@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Resources — PrivateNetAI</title>
+<meta name="description" content="Quick guidelines to choose a trustworthy VPN and browse more safely.">
+<style>
+:root{
+  --bg:#f8fafc;
+  --ink:#0f172a;
+  --muted:#475569;
+  --brand:#1d4ed8;
+  --brand-dark:#1e40af;
+  --card:#ffffff;
+  --line:#e2e8f0;
+  --radius:22px;
+  --shadow:0 10px 30px rgba(2, 8, 23, .06);
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji"; color:var(--ink); background:var(--bg);}
+a{color:var(--brand);text-decoration:none}
+a:hover{text-decoration:underline}
+.container{max-width:1140px;margin:0 auto;padding:0 20px}
+.header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.7);backdrop-filter:saturate(1.2) blur(8px); border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+.brand{font-weight:800;letter-spacing:.3px}
+.nav a{margin-left:16px;color:var(--muted)}
+.nav a:hover{color:var(--ink)}
+.hero{background:linear-gradient(120deg, #ecfeff, #eff6ff);border-bottom:1px solid var(--line)}
+.hero-inner{padding:64px 0}
+.h1{font-size:40px;line-height:1.1;margin:0 0 12px 0;font-weight:900;letter-spacing:-.02em}
+.lead{color:var(--muted);max-width:800px;margin:0 0 10px 0}
+.disclosure{background:#fff;border:1px solid var(--line);padding:12px 14px;border-radius:12px;display:inline-block;box-shadow:var(--shadow);}
+.section{padding:44px 0}
+.table{width:100%;border-collapse:separate;border-spacing:0 10px}
+thead th{font-size:13px;color:#334155;text-align:left}
+tbody tr{background:#fff;border:1px solid var(--line);box-shadow:var(--shadow);border-radius:14px}
+tbody td{padding:14px 16px}
+.table-wrap{overflow:auto}
+.picker th, .picker td{text-align:center}
+.checkbox{display:flex;align-items:center;justify-content:center;gap:8px}
+.btn{display:inline-block;background:var(--brand);color:#fff;border-radius:12px;padding:10px 14px}
+.btn:hover{background:var(--brand-dark);text-decoration:none}
+.badge{display:inline-block;padding:6px 10px;border-radius:999px;background:#dbeafe;color:#1e3a8a;font-weight:600;font-size:12px}
+.small{color:var(--muted);font-size:14px}
+.footer{border-top:1px solid var(--line);padding:24px 0;color:var(--muted)}
+.progress{height:8px;background:#e5e7eb;border-radius:999px;overflow:hidden}
+.progress > span{display:block;height:8px}
+.progress .pos{background:#22c55e}
+.progress .neu{background:#9ca3af}
+.progress .neg{background:#ef4444}
+.stars{color:#f59e0b}
+@media (max-width: 900px){ .h1{font-size:34px} }
+@media (max-width: 640px){ .h1{font-size:28px} }
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="container nav">
+    <a href="/" class="brand" style="color:inherit;text-decoration:none">PrivateNetAI</a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/resources.html">Resources</a>
+      <a href="/list-your-vpn.html">List your VPN</a>
+      <a href="/compare-vpn.html">Compare</a>
+      <a href="/disclaimer.html">Disclosure</a>
+      <a href="/privacy-policy.html">Privacy</a>
+      <a href="/terms.html">Terms</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-inner">
+    <div class="badge">Learn</div>
+    <h1 class="h1">VPN & Security Resources</h1>
+    <p class="lead">Quick guidelines to choose a trustworthy VPN and browse more safely.</p>
+  </div>
+</section>
+<main class="container section">
+
+  <div class="grid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px">
+    <div class="card"><h3>Picking a VPN</h3><p class="small">Prioritize audited no‑logs policies, strong encryption, kill switch, and DNS leak protection.</p></div>
+    <div class="card"><h3>Speed & reliability</h3><p class="small">Look for WireGuard support and widespread server coverage.</p></div>
+    <div class="card"><h3>Privacy tips</h3><p class="small">Use MFA, strong passwords, and keep devices patched. A VPN is one layer.</p></div>
+  </div>
+  <p class="small" style="margin-top:20px"><a href="/">Back to Home</a></p>
+  
+</main>
+
+<footer class="footer">
+  <div class="container small">
+    © 2025 PrivateNetAI — Independent VPN recommendations.
+    <a href="/disclaimer.html">Disclosure</a> · <a href="/privacy-policy.html">Privacy</a> · <a href="/terms.html">Terms</a> ·
+    <a href="mailto:info@privatenetai.com">info@privatenetai.com</a>
+  </div>
+</footer>
+
+</body>
+</html>
